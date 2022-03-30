@@ -2,9 +2,10 @@
 
 html {
     box-sizing: border-box;
-    font-size: 10px;
     font-family: 'Alegreya', serif;
+    font-size: 10px;
     color: rgb(0, 0, 0);
+    height: 100vh;
   }
   *, *::before, *::after {
     box-sizing: inherit;
@@ -12,9 +13,101 @@ html {
 
 body{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto; 
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
 }
 
-@media screen and (min-width: 800px) {
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.imagenCabecera{
+  /*Elimina espacio en blanco entre imagen y h1*/
+  font-size: 0px;
+}
+
+.imagenCabecera img{
+  width: 100vw;
+  height: 20vh;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  background-color: black;
+  color: rgb(98, 130, 199);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.imagenCentral{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.imagenCentral img{
+  width: 60vw;
+  height: 30vh;
+}
+
+.enlacesPaginas{
+  background-color: gray;
+}
+
+.enlacesPaginas a{
+  text-decoration: none;
+  color: lightblue;
+  font-size: 2.2rem;
+  margin: 8vh 3vw;
+}
+
+.enlacesPaginas a:hover{
+  text-decoration: underline;
+}
+
+.imagenLibro{
+  width: 30vw;
+  height: 25vh;
+  margin: 1.5vh 7vw 0;
+
+}
+
+#textoPortada{
+  font-size: 1.4rem;
+  margin: 0 15vw;
+}
+
+@media screen and (min-width: 1000px) {
+  .imagenCabecera img{
+    width: 100vw;
+    height: 30vh;
+    margin-bottom: 0;
+  }
+
+  .imagenCentral img{
+    width: 20vw;
+    height: 30vh;
+    margin-top: 2vh;
+  }
+
+  .imagenLibro{
+    width: 10vw;
+    height: 25vh;
+    margin: -15vh 0 0;
+  }
+
+  #Cantares{
+    margin-right: 60vw;
+  }
+
+  #textoPortada{
+    font-size: 2rem;
+    margin: 6vh 15vw 0;
+  }
+
+  .enlacesPaginas a{
+    font-size: 3rem;
+  }
 }
