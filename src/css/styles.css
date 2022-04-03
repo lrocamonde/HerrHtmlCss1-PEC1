@@ -80,9 +80,10 @@ h1 {
 
 .subtitulo a,
 .subtitulo p {
+  text-decoration: none;
   color: lightblue;
-  font-size: 2.2rem;
-  margin: 0 3vw;
+  font-size: 1.8rem;
+  margin: 0 2vw;
 }
 
 .subtitulo a:hover {
@@ -126,6 +127,74 @@ h1 {
   height: 18vh;
 }
 
+.listaObras{
+  font-size: 2.2rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.listaObras li{
+  margin: 10vh 0;
+}
+
+.listaObras li a {
+  text-decoration: none;
+  color: rgb(98, 130, 199);
+}
+
+.listaObras li a:hover{
+  background-color: lightgray;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+.parrafosObra{
+  font-size: 1.2rem;
+  margin: 0 5vw;
+}
+
+.parrafosObra p{
+  text-align: justify;
+}
+
+.parrafosObra img{
+  width: 30vw;
+  height: 20vh;
+}
+
+.parrafosObra ul{
+  padding-left: 0;
+  text-align: justify;
+  margin-top: 2vh;
+}
+
+.parrafosObra li{
+  margin-top: 1vh;
+  margin-left: 3vw;
+}
+
+.parrafosObra .orillasSarImg{
+  margin-top: 5vh;
+  width: 40vw;
+  height: 20vh;
+}
+
+.enlaces{
+  text-align: left;
+  font-size: 1.4rem;
+  margin: 5vh 5vw;
+}
+
+.enlaces a{
+  color: blue;
+}
+
 @media screen and (min-width: 1000px) {
   .imagenCabecera img {
     width: 100vw;
@@ -137,6 +206,11 @@ h1 {
     width: 20vw;
     height: 30vh;
     margin-top: 2vh;
+  }
+
+  .subtitulo a,
+  .subtitulo p {
+    font-size: 2.5rem;
   }
 
   .imagenLibro {
@@ -163,7 +237,7 @@ h1 {
     margin: 1vh 15vw 1vh 15vw;
     font-size: 2.5rem;
   }
-  
+
   .parrafo1 img {
     width: 35vw;
     height: 20vh;
@@ -171,19 +245,48 @@ h1 {
     margin-right: 2vw;
   }
 
-.parrafo1 p {
-  margin-top: 5vh;
-}
-  
+  .parrafo1 p {
+    margin-top: 5vh;
+  }
+
   .parrafo4 {
     display: initial;
     margin: 0 auto;
     font-weight: bold;
     font-style: italic;
   }
-  
+
   .imagenAlumnos img {
     width: 50vw;
     height: 30vh;
+  }
+
+  .parrafosObra{
+    font-size: 2em;
+    margin: 0 15vw;
+  }
+
+  .parrafosObra img{
+    width: 12vw;
+    height: 20vh;
+  }
+
+  .parrafosObra ul{
+    margin-top: 3vh;
+  }
+
+  .parrafosObra .follasNovasImg{
+    height: 25vh;
+    width: 8vw;
+  }
+
+  .parrafosObra .orillasSarImg{
+    width: 15vw;
+    height: 20vh;
+  }
+
+  .enlaces{
+    font-size: 2.2rem;
+    margin: 15vh 15vw;
   }
 }
