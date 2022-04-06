@@ -222,6 +222,11 @@ h2{
  background-color: rgb(98, 130, 199);  
  }
 
+
+ .obras #hamb.hamburger-menu {
+  height: 70vh; 
+}
+
 .mainCantares, .mainFollas, .mainSar{
   display: flex;
 }
