@@ -5,6 +5,9 @@
     <meta charset="utf-8"/>
     <title>Rosalia de Castro: Obras</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.css>
+    <script src=https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.js></script>
     <script type="module" src="../scripts/app.js"></script>
   </head>
   <body>
@@ -25,12 +28,25 @@
         <div class="subtitulo">
             <p>Obras</p>
         </div>
-        <h2>En las orillas del sar</h2>
-        <div class="parrafosObra">
+        <div class="mainSar">
+          <nav class=hamburger-menu id="hamb">
+            <a class=hamburger href=#>&#9776;</a>
+            <aside id="menu">
+              <ul>
+                  <li><a href=../obras.html>Obras</a></li>
+                  <li><a href=cantaresGallegos.html>Cantares Gallegos</a></li>
+                  <li><a href=follasNovas.html>Follas Novas</a></li>
+                  <li><a href=enLasOrillasDelSar.html>En las orillas del Sar</a></li>
+              </ul>
+            </aside>
+          </nav>
+          <div class="parrafosObra">
+            <h2>En las orillas del sar</h2>
             <p>En las orillas del Sar es el último volumen de poesías de Rosalía de Castro, fue el libro más incomprendido de la autora gallega. Se publicó en 1884 y se trata de uma serie de poemas muy innovadores al romper com las formas métricas tradicionales y en los que refleja sus emociones personales, de forma pesimista y se aleja de la esperanza que encuentra en la religión</p>
             <p>En los versos predomina un dramatismo amargo lleno de musicalidad. Rosalía de Castro propone una nueva forma de versificar, que se encuentra a medio camino del Romanticismo y el Modernismo</p>
             <p>Frente a la incomprensión y el rechazo por parte del positivismo burgués de la época, Rosalía de Castro se muestra aquí, como dijera Azorín, como «precursora en la métrica y en la ideología</p>
             <img class="orillasSarImg" src="../images/rioSar.jpg" alt="Edición antigua del libro Follas Novas" title="Follas Novas" width="1240" height="2104">
+          </div>
         </div>
     </main>
   </body>

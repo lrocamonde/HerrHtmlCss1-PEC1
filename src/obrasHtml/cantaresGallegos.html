@@ -5,6 +5,9 @@
     <meta charset="utf-8"/>
     <title>Rosalia de Castro: Obras</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.css>
+    <script src=https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.js></script>
     <script type="module" src="../scripts/app.js"></script>
   </head>
   <body>
@@ -25,8 +28,20 @@
         <div class="subtitulo">
             <p>Obras</p>
         </div>
-        <h2>Cantares gallegos</h2>
-        <div class="parrafosObra">
+        <div class="mainCantares">
+          <nav class=hamburger-menu id="hamb">
+            <a class=hamburger href=#>&#9776;</a>
+            <aside id="menu">
+              <ul>
+                  <li><a href=../obras.html>Obras</a></li>
+                  <li><a href=cantaresGallegos.html>Cantares Gallegos</a></li>
+                  <li><a href=follasNovas.html>Follas Novas</a></li>
+                  <li><a href=enLasOrillasDelSar.html>En las orillas del Sar</a></li>
+              </ul>
+            </aside>
+          </nav>
+          <div class="parrafosObra">
+            <h2>Cantares gallegos</h2>
             <img src="../images/bustoRosalia.jpg" alt="Busto de Rosalia de Castro" title="Rosalia de Castro" width="1664" height="2752">
             <p>Fue el 17 de mayo de 1863 cuando Manuel Murguía hizo entrega al impresor vigués Juan Compañel del manuscrito de Rosalía de Castro, Cantares gallegos, obra iniciadora del Rexurdimento pleno. Para comprender el origen de esta, hay que tener presentes factores tales como la familiaridad de la poeta con la música popular, la reivindicación romántica de las culturas tradicionales y de sus manifestaciones populares</p>
             <p>Tal fue el éxito alcanzado por la obra que Rosalía de Castro fue invitada a participar en los Juegos Florales de Barcelona, aunque declinó el ofrecimiento. Además, escritores lusos de la generación de 1865, como son Antero de Quental o Teófilo Braga, manifestaron con prontitud su admiración por el libro, para en 1868 ser vertidos al catalán dos de los poemas de este por parte de Víctor Balaguer. </p>
@@ -38,7 +53,9 @@
                 <li>Temática amorosa</li>
                 <li>Temática intimista</li>
             </ul>
+          </div>
         </div>
+
     </main>
   </body>
 </html>

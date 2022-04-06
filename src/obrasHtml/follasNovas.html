@@ -5,6 +5,9 @@
     <meta charset="utf-8"/>
     <title>Rosalia de Castro: Obras</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.css>
+    <script src=https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.js></script>
     <script type="module" src="../scripts/app.js"></script>
   </head>
   <body>
@@ -25,8 +28,20 @@
         <div class="subtitulo">
             <p>Obras</p>
         </div>
-        <h2>Follas Novas</h2>
-        <div class="parrafosObra">
+        <div class="mainFollas">
+          <nav class=hamburger-menu id="hamb">
+            <a class=hamburger href=#>&#9776;</a>
+            <aside id="menu">
+              <ul>
+                  <li><a href=../obras.html>Obras</a></li>
+                  <li><a href=cantaresGallegos.html>Cantares Gallegos</a></li>
+                  <li><a href=follasNovas.html>Follas Novas</a></li>
+                  <li><a href=enLasOrillasDelSar.html>En las orillas del Sar</a></li>
+              </ul>
+            </aside>
+          </nav>
+          <div class="parrafosObra">
+            <h2>Follas Novas</h2>
             <img class="follasNovasImg" src="../images/follasNovasObra.jpg" alt="Edición antigua del libro Follas Novas" title="Follas Novas" width="1240" height="2104">
             <p>Follas novas (en español, «Hojas nuevas») es un poemario publicado en 1880 por Rosalía de Castro (1837-1885). Fue escrito en la localidad vallisoletana de Simancas, donde en aquel momento residía con su marido, nombrado Director del Archivo General del Reino de España, sito en dicha localidad.</p>
             <ul>
@@ -39,7 +54,7 @@
             </ul>
             <p>La obra tiene una organización formal poco elaborada al compararla con Cantares gallegos, si bien su amplitud temática y la diversidad de sus textos le confiere mayor universalidad. La colección de poemas resulta sumamanete irregular desde una perspectiva estructural.</p>
             <p>A pesar de ser Follas novas una obra de inaudito valor literario y humano, lo verdaderamente insólito es que Rosalía compusiese sus sentimientos y reflexiones sociales en una lengua tenida por dialectal, por flagrante ejemplo de la incultura de un pueblo.</p>
-            
+          </div>
         </div>
     </main>
   </body>

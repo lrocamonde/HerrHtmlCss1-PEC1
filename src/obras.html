@@ -5,6 +5,9 @@
     <meta charset="utf-8"/>
     <title>Rosalia de Castro: Obras</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.css>
+    <script src=https://cdn.jsdelivr.net/npm/jquery@3.6/dist/jquery.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/hamburger-menu@0.3/dist/hamburger-menu.min.js></script>
     <script type="module" src="scripts/app.js"></script>
   </head>
   <body>
@@ -26,13 +29,23 @@
             <p>Obras</p>
         </div>
         <div class="obras">
+            <nav class=hamburger-menu id="hamb">
+              <a class=hamburger href=#>&#9776;</a>
+              <aside id="menu">
+                <ul>
+                    <li><a href=obras.html>Obras</a></li>
+                    <li><a href=obrasHtml/cantaresGallegos.html>Cantares Gallegos</a></li>
+                    <li><a href=obrasHtml/follasNovas.html>Follas Novas</a></li>
+                    <li><a href=obrasHtml/enLasOrillasDelSar.html>En las orillas del Sar</a></li>
+                </ul>
+              </aside>
+            </nav>
             <ul class="listaObras">
                 <li><a href="obrasHtml/cantaresGallegos.html">Cantares gallegos</a></li>
                 <li><a href="obrasHtml/follasNovas.html">Follas novas</a></li>
                 <li><a href="obrasHtml/enLasOrillasDelSar.html">En las orillas del Sar</a></li>
             </ul>
         </div>
-        
     </main>
   </body>
 </html>
