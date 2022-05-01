@@ -17,7 +17,8 @@
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "parcel": "^2.3.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "sharp": "^0.29.3"
   },
   "dependencies": {
     "hamburger-menu": "^0.4.0"
