@@ -19,7 +19,9 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: white;
-  padding: 0 !important;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 html,
@@ -28,36 +30,34 @@ body {
   padding: 0;
 }
 
-.imagenCabecera {
-  /*Elimina espacio en blanco entre imagen y h1*/
-  font-size: 0px;
-}
-
-.imagenCabecera img {
-  width: 100vw;
-  height: 20vh;
-  margin-bottom: 0;
-}
-
-.titulo {
+.header {
   background-color: black;
   color: rgb(98, 130, 199);
   justify-content: center;
   display: flex;
   text-align: center;
+  padding: 20px 0;
+  height: 10vh;
+  min-height: 150px;
 }
 
-.titulo .back {
+.header .back {
   font-size: 3rem;
   float: left;
   width: 0px;
   margin-top: 1vh;
 }
 
+.header img{
+  margin: auto 0;
+  width: 60px;
+  height: 90px;
+}
+
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   display: inline-block;
-  margin: 0 auto;
+  margin: auto 50px;
 }
 
 
@@ -95,7 +95,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  margin-top: 10vh;
+  margin-top: 6vh;
 }
 
 .elementosPortada img{
@@ -237,12 +237,71 @@ h2{
   display: flex;
 }
 
+main {
+  display: inline-block;
+  width: 100vw;
+  height: fit-content;
+  margin-bottom: 30px;
+  height: 65vh;
+}
+
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+footer div {
+  margin: auto 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.grid-center p:first-child{
+  color: lightblue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.grid-right img{
+  width: 50px;
+  height: 80px;
+}
+
 @media screen and (min-width: 1000px) {
-  .imagenCabecera img {
-    width: 100vw;
-    height: 30vh;
-    margin-bottom: 0;
+
+  .header img{
+    margin: auto 0;
+    width: initial;
+    height: initial;
   }
+  
+
+  footer{
+    min-height: 250px;
+  }
+
+
+  footer p{
+    font-size: 2.3rem;
+  }
+
+  .grid-right img{
+    width: 100px;
+    height: 220px;
+  }
+  
 
   .imagenCentral img {
     width: 30vw;
@@ -254,7 +313,7 @@ h2{
 
   .subtitulo a,
   .subtitulo p {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   .elementosPortada img{
@@ -339,8 +398,6 @@ h2{
     background-color: rgb(98, 130, 199);   
     height: 60vh; 
   }
-
-
 
   #hamb.hamburger-menu aside ul li.current >span,
   #hamb.hamburger-menu aside ul li.current >a,
