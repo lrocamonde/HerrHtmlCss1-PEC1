@@ -19,16 +19,15 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: white;
-  padding: 0;
-  margin: 0;
   overflow-x: hidden;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px !important;
 }
+
 
 .header {
   background-color: black;
@@ -137,10 +136,9 @@ h1 {
 }
 
 .listaObras{
-  position: fixed;
   font-size: 2.2rem;
   list-style-type: none;
-  padding-left: 25vw;
+  margin: auto;
 }
 
 .listaObras li{
@@ -216,6 +214,7 @@ h2{
 #hamb.hamburger-menu {
   color:white;         
   background-color: rgb(98, 130, 199);    
+  height: 64.1vh; 
 }
 
 #hamb.hamburger-menu aside ul li.current >span,
@@ -228,17 +227,17 @@ h2{
 
 
  .obras #hamb.hamburger-menu {
-  height: 70vh; 
+  height: 65.7vh; 
 }
 
 .mainCantares, .mainFollas, .mainSar{
   display: flex;
+  height: 65vh;
 }
 
 main {
   display: inline-block;
   width: 100vw;
-  height: fit-content;
   margin-bottom: 30px;
   height: 65vh;
 }
@@ -365,7 +364,7 @@ footer a:hover {
   }
 
   .listaObras{
-    margin-left: 20vw;
+    font-size: 4rem;
   }
 
   .parrafosObra{
@@ -374,8 +373,9 @@ footer a:hover {
   }
 
   .parrafosObra img{
-    width: 12vw;
-    height: 20vh;
+    width: 15vw;
+    height: 15vh;
+    min-height: 200px;
   }
 
   .parrafosObra ul{
@@ -400,8 +400,13 @@ footer a:hover {
   .obras #hamb.hamburger-menu {
     color:white;           
     background-color: rgb(98, 130, 199);   
-    height: 60vh; 
+    height: 64.1vh;
   }
+
+  #hamb.hamburger-menu aside ul li a{
+    font-size: 2rem;
+  }
+
 
   #hamb.hamburger-menu aside ul li.current >span,
   #hamb.hamburger-menu aside ul li.current >a,
@@ -409,5 +414,6 @@ footer a:hover {
   #hamb.hamburger-menu aside ul li >a:hover {
    color: white;               
    background-color: rgb(98, 130, 199);  
+   font-size: 2.5rem;
    }
 }
