@@ -11,4 +11,6 @@ Cambio de resolucion dpi: Imagen en el mismo tamaño pero con diferentes resoluc
 Dirección de arte: Cambiar la imagen, pantalla grande persona con paisaje, pantalla pequeña zoom en persona
 
 
-clip-path polygon para logo
+clip-path polygon para imagen portada
+
+Dirección de arte en orillas del rio sar para reducir la imagen y mostrar con mayor claridad el río

@@ -181,7 +181,7 @@ h2{
   text-align: justify;
 }
 
-.parrafosObra img{
+.parrafosObraImg{
   width: 30vw;
   height: 20vh;
 }
@@ -198,8 +198,8 @@ h2{
 }
 
 .parrafosObra .orillasSarImg{
-  margin-top: 5vh;
-  width: 40vw;
+  padding: 5vh 0;
+  width: 47vw;
   height: 20vh;
 }
 
@@ -249,7 +249,6 @@ main {
   display: inline-block;
   width: 100vw;
   margin-bottom: 30px;
-  height: 65vh;
 }
 
 footer {
@@ -284,6 +283,28 @@ footer a:hover {
 .grid-right img{
   width: 50px;
   height: 80px;
+}
+
+.cantaresGallegosImg{
+  width: 20vw;
+  height: 10vh;
+  max-height: 400px;
+} 
+
+.gridImgLeft, .gridImgRight {
+  width: 20vw;
+  height: 10vh;
+}
+
+.gridLista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.gridLista img,.gridLista ul{
+  margin: auto;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1000px) {
@@ -321,6 +342,16 @@ footer a:hover {
     margin-top: 2vh;
     max-height: 1000px;
     max-width: 1000px;
+  }
+
+  .cantaresGallegosImg{
+    width: 28vw;
+    height: 20vh;
+  } 
+  
+  .gridImgLeft, .gridImgRight {
+    width: 10vw;
+    height: 15vh;
   }
 
   .subtitulo a,
@@ -382,7 +413,7 @@ footer a:hover {
     margin: 0 15vw 0 8vw;
   }
 
-  .parrafosObra img{
+  .parrafosObraImg{
     width: 15vw;
     height: 15vh;
     min-height: 200px;
@@ -398,8 +429,9 @@ footer a:hover {
   }
 
   .parrafosObra .orillasSarImg{
-    width: 15vw;
-    height: 20vh;
+    width: 60vw;
+    height: 30vh;
+    max-width: 1200px;
   }
 
   .enlaces{
