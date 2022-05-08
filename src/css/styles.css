@@ -45,10 +45,11 @@ body {
   width: 0px;
 }
 
-.header img{
+svg{
   margin: auto 0;
-  width: 60px;
-  height: 90px;
+  width: 125px;
+  height: 250px;
+  transform: scale(0.5);
 }
 
 h1 {
@@ -307,17 +308,29 @@ footer a:hover {
   justify-content: center;
 }
 
+
+
 @media screen and (min-width: 1000px) {
+
+  .escudo {
+    fill: #005bbf;
+    transition: fill 0.5s;
+  }
+  
+  .escudo:hover {
+    fill: #03cc83;
+  }
 
   .header {
     height: 15vh;
     min-height: 300px;
   }
 
-  .header img{
+  svg{
     margin: auto 0;
-    width: initial;
-    height: initial;
+    width: 125px;
+    height: 250px;
+    transform: scale(1);
   }
   
 
