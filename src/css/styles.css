@@ -61,11 +61,21 @@ h1 {
 .imagenCentral {
   margin-top: 3vh;
   margin-bottom: 3vh;
+  
 }
 
 .imagenCentral img {
   width: 50vw;
   height: 30vh;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.imagenLibroA {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.imagenLibroB {
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
 .subtitulo {
