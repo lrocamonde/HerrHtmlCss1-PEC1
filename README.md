@@ -16,3 +16,5 @@ clip-path polygon para imagen portada
 Dirección de arte en orillas del rio sar para reducir la imagen y mostrar con mayor claridad el río
 
 Icono de https://freeicons.io/communication-and-media-icons/open-book-icon-icon
+
+Animacion en el svg del header para mostrar que sirve como enlace
