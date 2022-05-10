@@ -40,6 +40,10 @@ body {
   min-height: 150px;
 }
 
+.header a {
+  margin: auto 0;
+}
+
 .back {
   float: left;
   width: 0px;
@@ -66,7 +70,10 @@ h1 {
 .imagenCentral {
   margin-top: 3vh;
   margin-bottom: 3vh;
-  
+}
+
+.pictureFollas img{
+  width: 20vw;
 }
 
 .imagenCentral img {
@@ -154,11 +161,19 @@ h1 {
   font-size: 2.2rem;
   list-style-type: none;
   margin: auto;
+  
 }
 
 .listaObras li{
   margin: 10vh 0;
+	margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 60px;
 }
+
 
 .listaObras li a {
   text-decoration: none;
@@ -233,8 +248,8 @@ h2{
 
 #hamb.hamburger-menu {
   color:white;         
-  background-color: rgb(98, 130, 199);    
-  height: 64.1vh; 
+  background-color: rgb(98, 130, 199); 
+  min-height: 65vh;
 }
 
 #hamb.hamburger-menu aside ul li.current >span,
@@ -246,19 +261,14 @@ h2{
  }
 
 
- .obras #hamb.hamburger-menu {
-  height: 65.7vh; 
-}
-
 .mainCantares, .mainFollas, .mainSar{
   display: flex;
-  height: 65vh;
-}divEes
+}
 
 main {
   display: inline-block;
   width: 100vw;
-  margin-bottom: 30px;
+  min-height: 65vh;
 }
 
 footer {
@@ -312,7 +322,18 @@ footer a:hover {
   margin: auto;
 }
 
-.gridLista img,.gridLista ul{
+.gridFollas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.gridFollas img {
+  width: 120px;
+  height: 120px;
+}
+
+.gridLista img,.gridLista ul, .gridFollas img, .gridFollas ul{
   margin: auto;
   justify-content: center;
 }
@@ -434,7 +455,7 @@ footer a:hover {
 
   .parrafosObra{
     font-size: 2em;
-    margin: 0 15vw 0 8vw;
+    margin:  auto;
   }
 
   .parrafosObraImg{
@@ -449,7 +470,8 @@ footer a:hover {
 
   .parrafosObra .follasNovasImg{
     height: 25vh;
-    width: 8vw;
+    width: 10vw;
+    max-height: 500px;
   }
 
   .parrafosObra .orillasSarImg{
@@ -463,10 +485,9 @@ footer a:hover {
     margin: 15vh 15vw;
   }
 
-  .obras #hamb.hamburger-menu {
+  #hamb.hamburger-menu {
     color:white;           
-    background-color: rgb(98, 130, 199);   
-    height: 64.1vh;
+    background-color: rgb(98, 130, 199);
   }
 
   #hamb.hamburger-menu aside ul li a{
@@ -482,4 +503,9 @@ footer a:hover {
    background-color: rgb(98, 130, 199);  
    font-size: 2.5rem;
    }
+
+  .gridFollas img {
+    width: 500px;
+    height: 300px;
+  }
 }

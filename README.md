@@ -14,7 +14,8 @@ Dirección de arte: Cambiar la imagen, pantalla grande persona con paisaje, pant
 clip-path polygon para imagen portada
 
 Dirección de arte en orillas del rio sar para reducir la imagen y mostrar con mayor claridad el río
+Y dirección de arte en follas novas para mostrar texto o texto y busto
 
 Icono de https://freeicons.io/communication-and-media-icons/open-book-icon-icon
 
-Animacion en el svg del header para mostrar que sirve como enlace
+Animacion en el svg del header para mostrar que sirve como enlace haciendo transform scale
