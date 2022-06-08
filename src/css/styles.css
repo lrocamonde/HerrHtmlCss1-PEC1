@@ -6,6 +6,7 @@ html {
   font-size: 10px;
   color: rgb(0, 0, 0);
   height: 100vh;
+  font-display: swap;
 }
 
 *,
