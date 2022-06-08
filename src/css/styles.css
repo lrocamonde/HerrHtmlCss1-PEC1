@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans:wght@300;400&display=swap');
+
+
+@font-face {
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+  font-display: swap;
+}
 
 html {
   box-sizing: border-box;
-  font-family: 'Alegreya', serif;
   font-size: 10px;
   color: rgb(0, 0, 0);
   height: 100vh;
-  font-display: swap;
 }
 
 *,
